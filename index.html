@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="src/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <img src="./src/assets/Vector.png" alt="" class="logo" />
+      </figure>
+    </header>
+    <main>
+      <section>
+        <textarea
+          rows="10"
+          id="income"
+          cols="75"
+          placeholder="Ingrese el texto"
+          class="text-area"
+        ></textarea>
+        <article>
+          <h6 class="information">Solo letras minusculoar y sin acentos</h6>
+        </article>
+        <article class="btn">
+          <button class="btn_encrypt" type="button" id="encrypt">
+            Encriptar
+          </button>
+          <button class="btn_decrypt" id="decrypt">Desencriptar</button>
+        </article>
+      </section>
+      <section>
+        <textarea
+          name=""
+          id="result"
+          cols="36"
+          rows="10"
+          id="result"
+          placeholder="Ingrese un texto para encriptar"
+          class="text-message"
+        ></textarea>
+        <article>
+          <button class="btn_copy" id="copy">Copiar</button>
+        </article>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
